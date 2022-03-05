@@ -1,0 +1,119 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'arithmetic_slices-413-22-03-03'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=arithmetic_slices-413-22-03-03",
+          "--package=arithmetic_slices-413-22-03-03"
+        ],
+        "filter": {
+          "name": "arithmetic_slices-413-22-03-03",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'arithmetic_slices-413-22-03-03'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=arithmetic_slices-413-22-03-03",
+          "--package=arithmetic_slices-413-22-03-03"
+        ],
+        "filter": {
+          "name": "arithmetic_slices-413-22-03-03",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'champagne_tower_799-22-03-03'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=champagne_tower_799-22-03-03",
+          "--package=champagne_tower_799-22-03-03"
+        ],
+        "filter": {
+          "name": "champagne_tower_799-22-03-03",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'champagne_tower_799-22-03-03'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=champagne_tower_799-22-03-03",
+          "--package=champagne_tower_799-22-03-03"
+        ],
+        "filter": {
+          "name": "champagne_tower_799-22-03-03",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'delete_and_earn_740_22_03_05'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=delete_and_earn_740_22_03_05",
+          "--package=delete_and_earn_740_22_03_05"
+        ],
+        "filter": {
+          "name": "delete_and_earn_740_22_03_05",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'delete_and_earn_740_22_03_05'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=delete_and_earn_740_22_03_05",
+          "--package=delete_and_earn_740_22_03_05"
+        ],
+        "filter": {
+          "name": "delete_and_earn_740_22_03_05",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

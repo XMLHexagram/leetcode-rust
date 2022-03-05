@@ -57,8 +57,6 @@ c(m,n) = (c(m-1,n)-1)/2 + (c(m-1,n-1)-1)/2
 //     }
 // }
 
-use std::fmt::Debug;
-
 pub fn champagne_tower(poured: i32, query_row: i32, query_glass: i32) -> f64 {
     let query_row = query_row as usize;
     let query_glass = query_glass as usize;
