@@ -11,5 +11,9 @@ name = "champagne_tower_799-22-03-03"
 version = "0.1.0"
 
 [[package]]
+name = "count_all_valid_pickup_and_deliveryo_options_1359_22_03_06"
+version = "0.1.0"
+
+[[package]]
 name = "delete_and_earn_740_22_03_05"
 version = "0.1.0"
