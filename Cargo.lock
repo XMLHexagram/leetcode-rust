@@ -25,3 +25,7 @@ version = "0.1.0"
 [[package]]
 name = "merge_two_sorted_lists_21_22_03_08"
 version = "0.1.0"
+
+[[package]]
+name = "rotate_list_61_22_03_12"
+version = "0.1.0"
