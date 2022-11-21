@@ -11,6 +11,10 @@ name = "arithmetic_slices-413-22-03-03"
 version = "0.1.0"
 
 [[package]]
+name = "balanced_binary_tree_110_22_11_21"
+version = "0.1.0"
+
+[[package]]
 name = "champagne_tower_799-22-03-03"
 version = "0.1.0"
 
