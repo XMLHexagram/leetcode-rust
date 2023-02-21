@@ -94,7 +94,7 @@ mod test {
                 let mut a = test.borrow_mut();
                 a.right = Some(Rc::new(RefCell::new(TreeNode::new(input[i].unwrap_or(-1)))));
             } else {
-                
+                s
             }
 
 

@@ -29,7 +29,7 @@ impl Solution {
         l1: Option<Box<ListNode>>,
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
-        let mut result = ListNode::new(0);
+        let mut result = aListNode::new(0);
         let mut res = &mut result;
 
         let mut l1 = &l1;
